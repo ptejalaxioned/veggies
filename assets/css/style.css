@@ -106,12 +106,41 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
-
+header{
+  background: linear-gradient(to right, rgb(57, 47, 80),rgb(90, 58, 133),
+  rgb(130, 55, 165));
+  display: flex;
+  color: aliceblue;
+  font-weight: 900;
+}
+header .wrapper{
+  padding: 140px 180px 70px 180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+header .header-right{
+  border-left: 0.5px solid rgba(240, 248, 255, 0.24);
+  padding-left: 40px;
+}
+header .header-left{
+font-size: 2rem;
+}
+header  a{
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+header .header-right{
+  font-size: 1rem;
+  }
+  header .header-right a{
+    background-color:#4a8b4a;
+    border-radius: 53px;
+    padding: 13px 37px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
 /*=================================
   Header styling ends here
 =================================*/  
