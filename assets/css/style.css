@@ -1,494 +1,500 @@
-      @charset "utf-8";
-      /* ==========================================================================
-        1. CSS Reset Code
-        ========================================================================== */
+        @charset "utf-8";
+        /* ==========================================================================
+          1. CSS Reset Code
+          ========================================================================== */
 
-      /* 1.1. Eric Meyers Reset
-        http://meyerweb.com/eric/tools/css/reset/
-        v2.0 | 20110126
-        License: none (public domain)
-        ========================================================================== */
-      html,
-      body,
-      div,
-      span,
-      applet,
-      object,
-      iframe,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      p,
-      blockquote,
-      pre,
-      a,
-      abbr,
-      acronym,
-      address,
-      big,
-      cite,
-      code,
-      del,
-      dfn,
-      em,
-      img,
-      ins,
-      kbd,
-      q,
-      s,
-      samp,
-      small,
-      strike,
-      strong,
-      sub,
-      sup,
-      tt,
-      var,
-      b,
-      u,
-      i,
-      center,
-      dl,
-      dt,
-      dd,
-      ol,
-      ul,
-      li,
-      fieldset,
-      form,
-      label,
-      legend,
-      table,
-      caption,
-      tbody,
-      tfoot,
-      thead,
-      tr,
-      th,
-      td,
-      article,
-      aside,
-      canvas,
-      details,
-      embed,
-      figure,
-      figcaption,
-      footer,
-      header,
-      hgroup,
-      menu,
-      nav,
-      output,
-      ruby,
-      section,
-      summary,
-      time,
-      mark,
-      audio,
-      video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-      }
+        /* 1.1. Eric Meyers Reset
+          http://meyerweb.com/eric/tools/css/reset/
+          v2.0 | 20110126
+          License: none (public domain)
+          ========================================================================== */
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font-size: 100%;
+          font: inherit;
+          vertical-align: baseline;
+        }
 
-      /* HTML5 display-role reset for older browsers */
-      article,
-      aside,
-      details,
-      figcaption,
-      figure,
-      footer,
-      header,
-      hgroup,
-      menu,
-      nav,
-      section {
-        display: block;
-      }
+        /* HTML5 display-role reset for older browsers */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+          display: block;
+        }
 
-      /* Force scrollbar */
-      html {
-        overflow-y: scroll;
-      }
+        /* Force scrollbar */
+        html {
+          overflow-y: scroll;
+        }
 
-      /* Align radios and text inputs with their label */
+        /* Align radios and text inputs with their label */
 
-      input[type='radio'] {
-        vertical-align: text-bottom;
-      }
+        input[type='radio'] {
+          vertical-align: text-bottom;
+        }
 
-      /* Hand cursor on clickable input elements */
-      label,
-      input[type='button'],
-      input[type='submit'],
-      button {
-        cursor: pointer;
-      }
+        /* Hand cursor on clickable input elements */
+        label,
+        input[type='button'],
+        input[type='submit'],
+        button {
+          cursor: pointer;
+        }
 
-      strong {
-        font-weight: bold;
-        font-family: inherit;
-        font-size: inherit;
-      }
+        strong {
+          font-weight: bold;
+          font-family: inherit;
+          font-size: inherit;
+        }
 
-      em {
-        font-style: italic;
-      }
+        em {
+          font-style: italic;
+        }
 
-      img {
-        width: 50%;
-        border: 0;
-        vertical-align: middle;
-      }
+        img {
+          width: 50%;
+          border: 0;
+          vertical-align: middle;
+        }
 
-      sub,
-      sup {
-        vertical-align: baseline;
-        position: relative;
-        font-size: 55%;
-        line-height: 0;
-      }
+        sub,
+        sup {
+          vertical-align: baseline;
+          position: relative;
+          font-size: 55%;
+          line-height: 0;
+        }
 
-      sup {
-        top: -.7em;
-      }
+        sup {
+          top: -.7em;
+        }
 
-      sub {
-        bottom: -.25em;
-      }
+        sub {
+          bottom: -.25em;
+        }
 
-      /* 1.2. Clear Fix
-        ========================== */
+        /* 1.2. Clear Fix
+          ========================== */
 
-      .cf:before,
-      .cf:after {
-        display: table;
-        content: " ";
-      }
+        .cf:before,
+        .cf:after {
+          display: table;
+          content: " ";
+        }
 
-      .cf:after {
-        clear: both;
-      }
+        .cf:after {
+          clear: both;
+        }
 
-      .cf {
-        *zoom: 1;
-      }
+        .cf {
+          *zoom: 1;
+        }
 
-      /*for all*/
-      body {
-        box-sizing: border-box;
-        font-family: sans-serif;
-      }
+        /*for all*/
+        body {
+          box-sizing: border-box;
+          font-family: sans-serif;
+        }
 
-      a {
-        display: inline-block;
-        text-decoration: none;
-      }
+        a {
+          display: inline-block;
+          text-decoration: none;
+        }
 
-      li {
-        display: inline-block;
-        list-style-type: none;
-      }
+        li {
+          display: inline-block;
+          list-style-type: none;
+        }
 
-      /*for wrapper*/
-      .wrapper {
-        max-width: 1360px;
-        width: 86%;
-        margin: 0 auto;
-        padding: 70px 0px;
-        width: 71%;
-      }
+        /*for wrapper*/
+        .wrapper {
+          max-width: 1360px;
+          width: 86%;
+          margin: 0 auto;
+          padding: 70px 0px;
+          width: 71%;
+        }
 
-      /*=================================
-        Header styling starts here
-      =================================*/
+        /*=================================
+          Header styling starts here
+        =================================*/
+body{
+  color: #0000008f;
+}
+a{
+  color: #0000008f;
+}
+        header {
+          background: linear-gradient(to right, rgb(57, 47, 80), rgb(90, 58, 133),
+              rgb(130, 55, 165));
+          display: flex;
+          color: aliceblue;
+          font-weight: 900;
+        }
 
-      header {
-        background: linear-gradient(to right, rgb(57, 47, 80), rgb(90, 58, 133),
-            rgb(130, 55, 165));
-        display: flex;
-        color: aliceblue;
-        font-weight: 900;
-      }
+        header .wrapper {
+          padding-top: 140px;
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+        }
 
-      header .wrapper {
-        padding-top: 140px;
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-      }
+        header .header-right {
+          border-left: 0.5px solid rgba(240, 248, 255, 0.24);
+          padding-left: 40px;
+        }
 
-      header .header-right {
-        border-left: 0.5px solid rgba(240, 248, 255, 0.24);
-        padding-left: 40px;
-      }
+        header .header-left h1{
+          font-size: 2rem;
+          line-height: 43px;
+        }
 
-      header .header-left {
-        font-size: 2rem;
-      }
+        header a {
+          color: aliceblue;
+          text-transform: uppercase;
+          font-weight: 900;
+        }
 
-      header a {
-        color: aliceblue;
-        text-transform: uppercase;
-        font-weight: 900;
-      }
+        header .header-right p{
+          font-size: 1rem;
+          line-height: 43px;
+          line-height: 26px;
+        }
 
-      header .header-right {
-        font-size: 1rem;
-      }
+        header .header-right a {
+          background-color: #4a8b4a;
+          border-radius: 53px;
+          padding: 13px 37px;
+          font-size: 0.8rem;
+          margin-top: 15px;
+        }
+        
+        /*=================================
+          Header styling ends here
+        =================================*/
+        /*=================================
+          main styling starts here
+        =================================*/
+        .info {
+          border-bottom: 1px solid #00000036;
+        }
 
-      header .header-right a {
-        background-color: #4a8b4a;
-        border-radius: 53px;
-        padding: 13px 37px;
-        font-size: 0.8rem;
-        margin-top: 15px;
-      }
+        .info .wrapper {
+          display: flex;
+          justify-content: space-between;
+          line-height: 33px;
+        }
 
-      /*=================================
-        Header styling ends here
-      =================================*/
-      /*=================================
-        main styling starts here
-      =================================*/
-      .info {
-        border-bottom: 1px solid #00000036;
-      }
+        .info li::before {
+          font-size: 13px;
+          font-family: "FontAwesome";
+          font-weight: 900;
+          content: "\f00c";
+          color: #4a8b4a;
+          padding: 10PX;
+        }
 
-      .info .wrapper {
-        display: flex;
-        justify-content: space-between;
-        line-height: 33px;
-      }
+        .info li {
+          line-height: 40px;
+          text-transform: capitalize;
+          font-size: 15PX;
+          font-size: 13PX;
+        }
 
-      .info li::before {
-        font-size: 13px;
-        font-family: "FontAwesome";
-        font-weight: 900;
-        content: "\f00c";
-        color: #4a8b4a;
-        padding: 10PX;
-      }
+        .info .info-left h2 {
+          font-size: 1.5rem;
+          font-weight: bolder;
+        }
 
-      .info li {
-        line-height: 40px;
-        text-transform: capitalize;
-        font-size: 15PX;
-        font-size: 13PX;
-      }
+        .info .info-left ::first-letter {
+          text-transform: capitalize;
+        }
 
-      .info .info-left h2 {
-        font-size: 1.5rem;
-        font-weight: bolder;
-      }
+        .info .info-left p {
+          font-size: 13PX;
+          padding: 15px 40px 15px 0px;
+          line-height: 28px;
+        }
 
-      .info .info-left ::first-letter {
-        text-transform: capitalize;
-      }
+        .info .info-left a {
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 10px;
+          letter-spacing: 1px;
+          padding: 0px 26px;
+          border: 1.5px solid #00000040;
+          border-radius: 32px;
+        }
 
-      .info .info-left p {
-        font-size: 13PX;
-        padding: 15px 40px 15px 0px;
-        line-height: 28px;
-      }
+        .info .info-right {
+          padding-left: 40px;
+          padding-right: 150px;
+          border-left: 0.5px solid #00000054;
+        }
 
-      .info .info-left a {
-        text-transform: uppercase;
-        color: black;
-        text-decoration: none;
-        font-size: 10px;
-        letter-spacing: 1px;
-        padding: 0px 26px;
-        border: 1.5px solid #00000040;
-        border-radius: 32px;
-      }
+        /* *******************************Second Section********************************** */
+        .images {
+          background-color: #00000008;
+        }
 
-      .info .info-right {
-        padding-left: 40px;
-        padding-right: 150px;
-        border-left: 0.5px solid #00000054;
-      }
+        .box {
+          display: flex;
+          flex-direction: column;
+        }
 
-      /* *******************************Second Section********************************** */
-      .images {
-        background-color: #00000008;
-      }
+        .card {
+          display: flex;
+          margin: 20px;
+          background-color: white;
+          border-bottom: 1px solid #00000036;
+        }
 
-      .box {
-        display: flex;
-        flex-direction: column;
-      }
+        .card ul {
+          padding: 80px 0px;
+          padding-left: 5%;
+          padding-right: 5%;
+        }
 
-      .card {
-        display: flex;
-        margin: 20px;
-        background-color: white;
-        border-bottom: 1px solid #00000036;
-      }
+        .card img {
+          width: 40%;
+        }
 
-      .card ul {
-        padding: 80px 0px;
-        padding-left: 5%;
-        padding-right: 5%;
-      }
+        .card h3 {
+          font-size: 22px;
 
-      .card img {
-        width: 40%;
-      }
+        }
 
-      .card h3 {
-        font-size: 22px;
+        .card p {
+          font-size: 13px;
+          margin: 20px 0px;
+          line-height: 22px;
+        }
 
-      }
+        .card a {
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: 900;
+          border: 1px solid #00000036;
+          padding: 10px 26px;
+          border-radius: 30px;
+          letter-spacing: 1px;
+        }
 
-      .card p {
-        font-size: 13px;
-        margin: 20px 0px;
-        line-height: 22px;
-      }
+        .button {
+          display: flex;
+          justify-content: center;
+        }
 
-      .card a {
-        font-size: 12px;
-        text-transform: uppercase;
-        font-weight: 900;
-        border: 1px solid #00000036;
-        padding: 10px 26px;
-        border-radius: 30px;
-        color: black;
-        letter-spacing: 1px;
-      }
+        .button a {
+          border: 1px solid #00000036;
+          padding: 10px 26px;
+          margin-top: 20px;
+          border-radius: 30px;
+          text-transform: uppercase;
+          font-size: 12px;
+          letter-spacing: 1px;
+          font-weight: 900;
+        }
+        /* ******************************Third Section ******************************************** */
+        .contact .wrapper .contact-box{ 
+          display: flex;
+          justify-content: space-between;
+        }
+        .contact .contact-right a::before {
+          font-size: 13px;
+          font-family: "FontAwesome";
+          font-weight: 900;
+          color: #4a8b4a;
+          padding: 15px;
 
-      .button {
-        display: flex;
-        justify-content: center;
-      }
+        }
 
-      .button a {
-        color: black;
-        border: 1px solid #00000036;
-        padding: 10px 26px;
-        margin-top: 20px;
-        border-radius: 30px;
-        text-transform: uppercase;
-        font-size: 12px;
-        letter-spacing: 1px;
-        font-weight: 900;
-      }
-      /* ******************************Third Section ******************************************** */
-      .contact .wrapper .contact-box{ 
-        display: flex;
-        justify-content: space-between;
-      }
-      .contact .contact-right a::before {
-        font-size: 13px;
-        font-family: "FontAwesome";
-        font-weight: 900;
-        color: #4a8b4a;
-        padding: 15px;
+        .contact a[title="Twitter"]::before{
+          content: "\f099 ";
+        }
+        .contact a[title="Email"]::before{
+          content: "\f0e0";
+        }
+        .contact a[title="Facebook"]::before{
+          content: "\f39e";
+        }
+        .contact a[title="Imstagram"]::before{
+          content: "\f16d";
+        }
+        .contact a[title="Address"]::before{
+          content: "\f015";
+        }
+        .contact-right ul{
+          display: flex;
+          flex-direction: column;
+          font-size: 13px;
+        }
+        .contact-right{
+        border-left: 1px solid #00000036;
+        padding-left: 20px;
+        width:50%;
+        }
+        .contact-left{
+          display: flex;
+          flex-direction: column;
+          width: 44%;
+          padding-right: 2%;
+        }
+        .contact-left h2{
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 22px 0px;
+        }
+        .contact-left h2::first-letter{
+          text-transform: capitalize;
+        }
+        .contact-left p{
+          font-size: 13px;
+          line-height: 24px;
+        }
+        textarea{
+          padding: 17px 20px;
+          height: 99px; 
+          margin: 9px 0px 30px 0px;
+          border: 1px solid #00000036;
+        }
+        input{
+          width:40%;
+          padding: 10px 10px;
+          border: 1px solid #00000036;
+        }
+        .name-email{
+          display: flex;
+          justify-content: space-between;
+          margin: 23px 0px;
+        }
+        .contact-right a{
+          line-height: 33px;
+        }
+        .contact .contact-left a {
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 10px;
+          letter-spacing: 1px;
+          padding: 11px 31px;
+          border: 1.5px solid #00000040;
+          border-radius: 32px;
+          width: 22%
+        }
+        .contact{
+          border-bottom: 1.5px solid #00000040;
+        }
+        /*=================================
+          main styling ends here
+        =================================*/
 
-      }
-
-      .contact a[title="Twitter"]::before{
-        content: "\f099 ";
-      }
-      .contact a[title="Email"]::before{
-        content: "\f0e0";
-      }
-      .contact a[title="Facebook"]::before{
-        content: "\f39e";
-      }
-      .contact a[title="Imstagram"]::before{
-        content: "\f16d";
-      }
-      .contact a[title="Address"]::before{
-        content: "\f015";
-      }
-      .contact-right ul{
-        display: flex;
-        flex-direction: column;
-        font-size: 13px;
-      }
-      .contact-right{
-      border-left: 1px solid #00000036;
-      padding-left: 20px;
-      width:50%;
-      }
-      .contact-left{
-        display: flex;
-        flex-direction: column;
-        /* width: 40%;
-        padding-right: 5%; */
-        width: 44%;
-        padding-right: 2%;
-      }
-      .contact-left h2{
-font-size: 1.5rem;
-font-weight: 900;
-margin: 22px 0px;
-      }
-      .contact-left h2::first-letter{
-        text-transform: capitalize;
-      }
-      .contact-left p{
-        font-size: 13px;
-        line-height: 24px;
-      }
-      textarea{
-        padding: 17px 20px;
-        height: 99px; 
-        margin: 9px 0px 30px 0px;
-      }
-      input{
-        width:40%;
-        padding: 10px 10px;
-      }
-      .name-email{
-        display: flex;
-        justify-content: space-between;
-        margin: 23px 0px;
-      }
-      .contact-right a{
-        line-height: 33px;
-        color: black;
-      }
-      .contact .contact-left a {
-        text-transform: uppercase;
-        color: black;
-        text-decoration: none;
-        font-size: 10px;
-        letter-spacing: 1px;
-        padding: 11px 31px;
-        border: 1.5px solid #00000040;
-        border-radius: 32px;
-        width: 22%
-      }
-      .contact{
-        border-bottom: 1.5px solid #00000040;
-      }
-      /*=================================
-        main styling ends here
-      =================================*/
-
-      /*=================================
-        footer styling starts here
-      =================================*/
+        /*=================================
+          footer styling starts here
+        =================================*/
+  footer p{
+    text-align: center;
+    font-size: 13px;
+  }
 
 
 
 
 
 
+        /*=================================
+          footer styling ends here
+        =================================*/
 
-      /*=================================
-        footer styling ends here
-      =================================*/
-
-      /*media query starts*/
-      /*media query for 995px starts here*/
-      @media only screen and (max-width: 995px) {}
+        /*media query starts*/
+        /*media query for 995px starts here*/
+        @media only screen and (max-width: 995px) {}
