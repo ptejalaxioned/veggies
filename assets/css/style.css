@@ -554,12 +554,35 @@
 
             margin: none;
           }
-
+/* ************************ First Section ***************************** */
           .info .info-right {
             padding-left: 0px;
             padding-right: 0px;
-
+            border-top: 0.5px solid #00000054;
+            padding-top: 25px;
+            border-left: none;
           }
+  
+          .info .wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+         
+          }
+  
+      
+          .info .info-left p {
+            padding: 15px 0px 15px 0px;
+          }
+  
+          .info .info-left a {
+            padding: 0px 15px;
+          }
+          .info .info-left{
+            padding-bottom: 30px;
+          }
+
+
         }
 
         /* @media (max-width: 400px) {
