@@ -211,7 +211,7 @@
         body {
           color: #0000008f;
         }
- 
+
         a {
           color: #0000008f;
         }
@@ -517,49 +517,51 @@
           body {
             background-color: lightblue;
           }
-          .header{
+
+          .header {
             width: 100%;
           }
+
           .wrapper {
             width: 75%;
           }
+
           header .wrapper {
             display: flex;
             flex-direction: column;
             padding-top: 95px;
           }
+
           header .header-right {
             border-top: 0.5px solid rgba(240, 248, 255, 0.24);
             border-left: none;
             padding-top: 25px;
             padding-left: 0px;
           }
-  
+
           header .header-left h1 {
             padding-bottom: 15px;
           }
-  
-          header a {
-        
-          }
-  
+
           header .header-right a {
-          
+
             padding: 12px 15px;
             width: 38%;
           }
+
           .wrapper {
-            max-width:80%;
-        
+            max-width: 80%;
+
             margin: none;
           }
+
           .info .info-right {
             padding-left: 0px;
             padding-right: 0px;
 
+          }
         }
-        }
-        
+
         /* @media (max-width: 400px) {
         
   
