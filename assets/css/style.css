@@ -554,7 +554,8 @@
 
             margin: none;
           }
-/* ************************ First Section ***************************** */
+
+          /* ************************ First Section ***************************** */
           .info .info-right {
             padding-left: 0px;
             padding-right: 0px;
@@ -562,67 +563,81 @@
             padding-top: 25px;
             border-left: none;
           }
-  
+
           .info .wrapper {
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-         
+
           }
-  
-      
+
+
           .info .info-left p {
             padding: 15px 0px 15px 0px;
           }
-  
+
           .info .info-left a {
             padding: 0px 15px;
           }
-          .info .info-left{
+
+          .info .info-left {
             padding-bottom: 30px;
           }
 
+        }
 
+        /* *************************** Second Section ************************** */
+
+        .box {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .card ul {
+          padding: 21px 19px;
+        }
+
+        .card img {
+          width: 100%;
+        }
+
+        .card p {
+          font-size: 13px;
+          line-height: 21px;
+          margin: 4px 0px 10px 0px;
+        }
+
+        .card a {
+          font-size: 10px;
+          padding: 10px 16px;
+        }
+
+        .card li a {
+          display: flex;
+          justify-content: center;
+          margin: 0px 40px;
+          width: auto;
+        }
+
+        .button {
+          display: flex;
+          justify-content: center;
+        }
+
+        .button a {
+          padding: 10px 26px;
+          font-size: 10px;
+          width: 56%;
         }
 
         /* @media (max-width: 400px) {
         
   
-          header .wrapper {
-            padding-top: 140px;
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-          }
-  
-          header .header-right {
-            border-left: 0.5px solid rgba(240, 248, 255, 0.24);
-            padding-left: 40px;
-          }
-  
-          header .header-left h1 {
-            font-size: 2rem;
-            line-height: 43px;
-          }
-  
-          header a {
-            color: aliceblue;
-            text-transform: uppercase;
-            font-weight: 900;
-          }
-  
-          header .header-right p {
-            font-size: 1rem;
-            line-height: 43px;
-            line-height: 26px;
-          }
-  
-          header .header-right a {
-            background-color: #4a8b4a;
-            border-radius: 53px;
-            padding: 13px 37px;
-            font-size: 0.8rem;
-            margin-top: 15px;
-          }          
-
+        
         } */
