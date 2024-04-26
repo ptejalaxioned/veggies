@@ -523,13 +523,16 @@
           }
 
           .wrapper {
-            width: 75%;
+            width: 88%;
+            padding-top: 50px;  
+            padding-bottom: 50px;
           }
 
           header .wrapper {
             display: flex;
             flex-direction: column;
-            padding-top: 95px;
+            padding-top: 50px;  
+            padding-bottom: 50px;
           }
 
           header .header-right {
@@ -550,7 +553,7 @@
           }
 
           .wrapper {
-            max-width: 80%;
+            max-width: 1360px;
 
             margin: none;
           }
@@ -581,7 +584,7 @@
           }
 
           .info .info-left {
-            padding-bottom: 30px;
+            padding-bottom: 40px;
           }
 
         }
@@ -591,16 +594,21 @@
         .box {
           display: flex;
           flex-direction: column;
+          padding-top: 15px;
         }
-
+        .card h3 {
+        font-size: 25px;
+        }
         .card {
           display: flex;
           flex-direction: column;
           text-align: center;
+          margin: 0;
+          margin-bottom: 22px;
         }
 
         .card ul {
-          padding: 21px 19px;
+          padding: 30px 19px;
         }
 
         .card img {
@@ -610,12 +618,12 @@
         .card p {
           font-size: 13px;
           line-height: 21px;
-          margin: 4px 0px 10px 0px;
+          margin: 10px 0px 17px 0px;
         }
 
         .card a {
           font-size: 10px;
-          padding: 10px 16px;
+          padding: 10px 0px;
         }
 
         .card li a {
@@ -623,6 +631,7 @@
           justify-content: center;
           margin: 0px 40px;
           width: auto;
+          margin: 0px 30%;
         }
 
         .button {
@@ -631,11 +640,84 @@
         }
 
         .button a {
-          padding: 10px 26px;
+          padding: 10px 19px;
           font-size: 10px;
-          width: 56%;
+          width: auto;
+          margin: 10px;
+          padding: 10px 40px;
+          font-size: 11px;
         }
+/* ******************************  Third Section ********************** */
+.contact .wrapper .contact-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
+.contact-right {
+  border-top: 1px solid #00000036;
+  border-left: none;
+  padding-left: 0px;
+  width: 100%;
+  padding-top: 42px;
+}
+
+.contact-left {
+  width: 100%;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.contact-left h2 {
+margin: 0px 0px 16px 0px;
+}
+
+.contact-left p {
+  line-height: 20px;
+}
+
+textarea {
+  padding: 17px 20px;
+  height: 99px;
+  width: 70%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  margin: 14px 0px 0px 0px;
+}
+
+.contact-right a {
+  line-height: 33px;
+}
+
+.contact .contact-left a {
+display: flex;
+justify-content: center;
+  padding: 10px 11px;
+  margin: auto;
+    width: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.name-email{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+}
+.contact .contact-right a::before{
+  padding: 20px 10px;
+}
         /* @media (max-width: 400px) {
         
   
