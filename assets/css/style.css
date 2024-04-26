@@ -513,7 +513,7 @@
 
         /*media query starts*/
         /*media query for 995px starts here*/
-        @media only screen and (max-width: 320px) {
+        @media only screen and (min-width: 320px) {
           body {
             background-color: lightblue;
           }
@@ -562,9 +562,11 @@
           .info .info-right {
             padding-left: 0px;
             padding-right: 0px;
-            border-top: 0.5px solid #00000054;
+      
             padding-top: 25px;
             border-left: none;
+            width: 75%;
+            margin: auto;
           }
 
           .info .wrapper {
@@ -581,13 +583,19 @@
 
           .info .info-left a {
             padding: 0px 15px;
+            display: flex;
+    width: 29%;
+    justify-content: center;
+    margin: auto;
           }
 
           .info .info-left {
             padding-bottom: 40px;
+            border-bottom: 0.5px solid #00000054;
+            text-align: center;
           }
 
-        }
+        
 
         /* *************************** Second Section ************************** */
 
@@ -717,6 +725,16 @@ justify-content: center;
 }
 .contact .contact-right a::before{
   padding: 20px 10px;
+}
+        /*********************footer ***************************  */
+        footer .wrapper {
+          text-align: center;
+          font-size: 10px;
+          padding: 14px 0px;
+        }
+
+
+
 }
         /* @media (max-width: 400px) {
         
