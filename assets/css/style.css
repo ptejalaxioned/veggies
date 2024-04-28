@@ -1423,5 +1423,76 @@ font-size: 25px;
   padding: 10px 40px;
   font-size: 11px;
 }
-
+/* ******************************  Third Section ********************** */
+.contact .wrapper .contact-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  }
+  
+  .contact-right {
+  border-top: 1px solid #00000036;
+  border-left: none;
+  padding-left: 0px;
+  width: 100%;
+  padding-top: 42px;
+  }
+  
+  .contact-left {
+  width: 100%;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-bottom: 50px;
+  }
+  
+  .contact-left h2 {
+  margin: 0px 0px 16px 0px;
+  }
+  
+  .contact-left p {
+  line-height: 20px;
+  }
+  
+  textarea {
+  padding: 17px 20px;
+  height: 99px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  width: 71%;
+      margin: 16px 32px;  
+    }
+  
+  input {
+  width: 90%;
+  margin: 14px 0px 0px 0px;
+  }
+  
+  .contact-right a {
+  line-height: 33px;
+  }
+  
+  .contact .contact-left a {
+  display: flex;
+  justify-content: center;
+  padding: 10px 11px;
+  margin: auto;
+  width: auto;
+  }
+  
+  .contact {
+  text-align: center;
+  }
+  
+  .name-email{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+  }
+  .contact .contact-right a::before{
+  padding: 20px 10px;
+  }
+  
 }
