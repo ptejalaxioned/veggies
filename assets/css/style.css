@@ -515,15 +515,21 @@
          /*=================================
             media queries starts here
           =================================*/
+
           /* **********************************For 1440px ********************************************* */
           @media only screen and (min-width: 1361px) and (max-width:1440px) {
+            /* ****First Section**** */
             .info .info-right {
             padding-left: 54px;
             padding-left: 50px;
           }
+
+           /* ****Second Section**** */
           .card img {
             width: 48%;
           }
+
+           /* ****Third Section**** */
           .contact-right {
             padding-top: 22px;
           }
@@ -531,13 +537,18 @@
 
           
             /* **********************************For 1280px ********************************************* */
+
   @media only screen and  (max-width:1280px) {
+
+     /* ****Header Section**** */
     header .wrapper {
       padding-top: 104px;
     }
   .wrapper{
     width: 88%;
   }
+
+   /* ****First Section**** */
   .info .info-right {
     padding-left: 26px;
   }
