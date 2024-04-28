@@ -521,10 +521,21 @@
             padding-left: 54px;
             padding-left: 50px;
           }
-      
           .card img {
             width: 48%;
           }
-
-
+          .contact-right {
+            padding-top: 22px;
           }
+          }
+
+          
+            /* **********************************For 1280px ********************************************* */
+  @media only screen and  (max-width:1280px) {
+    header .wrapper {
+      padding-top: 104px;
+    }
+  .wrapper{
+    width: 88%;
+  }
+}
