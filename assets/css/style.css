@@ -558,5 +558,9 @@
     width: 70%;
   }
  
+    /* ****Third Section**** */
+  .contact .contact-left a {
+    width: 23%;
+    }
  
 }
