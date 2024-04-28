@@ -819,6 +819,11 @@ font-size: 25px;
   padding: 20px 10px;
   }
   
-
+/*********************footer ***************************  */
+footer .wrapper {
+  text-align: center;
+  font-size: 10px;
+  padding: 14px 0px;
+}
 
 }
