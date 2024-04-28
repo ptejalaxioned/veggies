@@ -1279,6 +1279,91 @@ footer .wrapper {
   font-size: 10px;
   padding: 14px 0px;
 }
+}
 
+
+@media only screen and (max-width:480px) {
+  .header {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 85%;
+    padding-top: 50px;  
+    padding-bottom: 50px;
+  }
+
+  header .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  header .header-right {
+    border-top: 0.5px solid rgba(240, 248, 255, 0.24);
+    border-left: none;
+    padding-top: 25px;
+    padding-left: 0px;
+  }
+
+  header .header-left h1 {
+    padding-bottom: 15px;
+  }
+
+  header .header-right a {
+    padding: 12px 25px;
+    width: auto;
+    margin: 28px auto auto;
   
+  }
+
+  .wrapper {
+    max-width: 1360px;
+
+    margin: none;
+  }
+
+  /* ************************ First Section ***************************** */
+  .info .info-right {
+    padding-left: 0px;
+    padding-right: 0px;
+padding-top: 25px;
+    border-left: none;
+    width: 60%;
+    margin: auto;
+  }
+
+  .info .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+  }
+
+
+  .info .info-left p {
+    padding: 15px 0px 15px 0px;
+  }
+
+  .info .info-left a {
+padding: 0px 0px;
+    display: flex;
+    width: 21%;
+    justify-content: center;
+    margin: auto;
+
+  }
+
+  .info .info-left {
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid #00000054;
+    text-align: center;
+  }
+
+
+  .info .info-left h2 {
+    font-size: 1.7rem;
+  }
+
 }
