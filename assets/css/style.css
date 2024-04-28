@@ -736,8 +736,218 @@ justify-content: center;
 
 
 }
-        /* @media (max-width: 400px) {
+
+/* *************************Max width 480px**************************** */
+
+@media (max-width: 480px) 
+{
+  header .header-right a {
+    padding: 12px 15px;
+   width: auto;
+   margin: 21px auto auto;
+  }
+
+          body {
+            background-color: lightblue;
+          }
+
+          .wrapper {
+            width: 74%;
+            padding-top: 50px;  
+            padding-bottom: 50px;
+          }
+
+          header .wrapper {
+            display: flex;
+    flex-direction: column;
+    padding-top: 80px;  
+    padding-bottom: 70px;
+          }
+
+          header .header-right {
+            border-top: 0.5px solid rgba(240, 248, 255, 0.24);
+            border-left: none;
+            padding-top: 25px;
+            padding-left: 0px;
+          }
+
+          header .header-left h1 {
+            padding-bottom: 15px;
+
+          }
+ 
+          /* ************************ First Section ***************************** */
+          .info .info-right {
+            padding-left: 0px;
+            padding-right: 0px;
+      
+            padding-top: 25px;
+            border-left: none;
+            width: 75%;
+            margin: auto;
+          }
+
+          .info .wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+          }
+
+
+          .info .info-left p {
+            padding: 15px 0px 15px 0px;
+          }
+
+          .info .info-left a {
+            padding: 0px 15px;
+            display: flex;
+    width: 29%;
+    justify-content: center;
+    margin: auto;
+          }
+
+          .info .info-left {
+            padding-bottom: 40px;
+            border-bottom: 0.5px solid #00000054;
+            text-align: center;
+          }
+
         
-  
-        
-        } */
+
+        /* *************************** Second Section ************************** */
+
+        .box {
+          display: flex;
+          flex-direction: column;
+          padding-top: 15px;
+        }
+        .card h3 {
+        font-size: 25px;
+        }
+        .card {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin: 0;
+          margin-bottom: 22px;
+        }
+
+        .card ul {
+          padding: 30px 19px;
+        }
+
+        .card img {
+          width: 100%;
+        }
+
+        .card p {
+          font-size: 13px;
+          line-height: 21px;
+          margin: 10px 0px 17px 0px;
+        }
+
+        .card a {
+          font-size: 10px;
+          padding: 10px 0px;
+        }
+
+        .card li a {
+          display: flex;
+          justify-content: center;
+          margin: 0px 40px;
+          width: auto;
+          margin: 0px 30%;
+        }
+
+        .button {
+          display: flex;
+          justify-content: center;
+        }
+
+        .button a {
+          padding: 10px 19px;
+          font-size: 10px;
+          width: auto;
+          margin: 10px;
+          padding: 10px 40px;
+          font-size: 11px;
+        }
+/* ******************************  Third Section ********************** */
+.contact .wrapper .contact-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contact-right {
+  border-top: 1px solid #00000036;
+  border-left: none;
+  padding-left: 0px;
+  width: 100%;
+  padding-top: 42px;
+}
+
+.contact-left {
+  width: 100%;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.contact-left h2 {
+margin: 0px 0px 16px 0px;
+}
+
+.contact-left p {
+  line-height: 20px;
+}
+
+textarea {
+  padding: 17px 20px;
+  height: 99px;
+  width: 70%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  margin: 14px 0px 0px 0px;
+}
+
+.contact-right a {
+  line-height: 33px;
+}
+
+.contact .contact-left a {
+display: flex;
+justify-content: center;
+  padding: 10px 11px;
+  margin: auto;
+    width: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.name-email{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+}
+.contact .contact-right a::before{
+  padding: 20px 10px;
+}
+        /*********************footer ***************************  */
+        footer .wrapper {
+          text-align: center;
+          font-size: 10px;
+          padding: 14px 0px;
+        }
+        } 
