@@ -578,4 +578,15 @@
     width: 90%;
   }
 
+  /* **** First Section **** */
+  .info .info-right {
+    padding-left: 26px;
+  }
+
+  /* **** Second Section **** */
+  .card img {
+    width: 70%;
+  }
+ 
+  
 }
