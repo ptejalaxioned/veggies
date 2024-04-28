@@ -827,3 +827,50 @@ footer .wrapper {
 }
 
 }
+
+
+/* **********************************For 776px ********************************************* */
+
+@media only screen and  (max-width:776px) 
+{
+  .header {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 78%;
+    padding-top: 50px;  
+    padding-bottom: 50px;
+  }
+
+  header .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  header .header-right {
+    border-top: 0.5px solid rgba(240, 248, 255, 0.24);
+    border-left: none;
+    padding-top: 25px;
+    padding-left: 0px;
+  }
+
+  header .header-left h1 {
+    padding-bottom: 15px;
+  }
+
+  header .header-right a {
+    padding: 12px 25px;
+    width: auto;
+    margin: 28px auto auto;
+  
+  }
+
+  .wrapper {
+    max-width: 1360px;
+
+    margin: none;
+  }
+
