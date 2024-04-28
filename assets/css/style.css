@@ -1727,4 +1727,30 @@ footer .wrapper {
   padding: 14px 0px;
 }
 
+textarea{
+  margin: 16px 25px;
+}
+.card li a {
+margin: 0px 34%;
+}
+.info .info-right {
+width: 74%;
+}
+.info .info-left a {
+  width: 33%;
+}
+.wrapper {
+  width: 85%;
+}
+
+
+.info .info-right {
+  width: 85%;
+}
+
+textarea {
+  margin: 15px 21px;
+  width: 69%;
+}
+
  }
