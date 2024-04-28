@@ -1548,4 +1548,46 @@ footer .wrapper {
     margin: none;
   }
 
+  /* ************************ First Section ***************************** */
+  .info .info-right {
+    padding-left: 0px;
+    padding-right: 0px;
+padding-top: 25px;
+    border-left: none;
+    width: 60%;
+    margin: auto;
+  }
+
+  .info .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+  }
+
+
+  .info .info-left p {
+    padding: 15px 0px 15px 0px;
+  }
+
+  .info .info-left a {
+padding: 0px 0px;
+    display: flex;
+    width: 21%;
+    justify-content: center;
+    margin: auto;
+
+  }
+
+  .info .info-left {
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid #00000054;
+    text-align: center;
+  }
+
+
+  .info .info-left h2 {
+    font-size: 1.7rem;
+  }
+
  }
