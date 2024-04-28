@@ -538,4 +538,8 @@
   .wrapper{
     width: 88%;
   }
+  .info .info-right {
+    padding-left: 26px;
+  }
+ 
 }
