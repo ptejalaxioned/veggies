@@ -1684,12 +1684,10 @@ font-size: 25px;
   height: 99px;
   margin-top: 16px;
   margin-bottom: 20px;
-  width: 71%;
-      margin: 16px 32px;  
+
     }
   
   input {
-  width: 90%;
   margin: 14px 0px 0px 0px;
   }
   
@@ -1714,8 +1712,7 @@ font-size: 25px;
   flex-direction: column;
   margin: 0;
   justify-content: center;
-  margin: auto;
-  width: 85%;
+ 
   }
   .contact .contact-right a::before{
   padding: 20px 10px;
@@ -1729,6 +1726,8 @@ footer .wrapper {
 
 textarea{
   margin: 16px 25px;
+  margin: 15px 24px;
+  width: 70%;
 }
 .card li a {
 margin: 0px 34%;
@@ -1748,9 +1747,5 @@ width: 74%;
   width: 85%;
 }
 
-textarea {
-  margin: 15px 21px;
-  width: 69%;
-}
 
  }
